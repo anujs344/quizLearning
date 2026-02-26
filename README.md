@@ -73,17 +73,3 @@ Maintenance & troubleshooting
 php artisan view:clear
 php artisan cache:clear
 ```
-
-- If you need a cleanup script to remove accidental scoring rules created before the validation fix, I can add a small artisan command to help.
-
-Contact & next steps
-
-If you'd like, I can:
-
-- Add a UI control so questioners can set `time_limit_seconds` per quiz
-- Add client-side logic to hide empty scoring rows before submit
-- Add a cleanup script to detect and remove suspicious scoring rules
-
-Pick one and I'll implement it.
-
----
